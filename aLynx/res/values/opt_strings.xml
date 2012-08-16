@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		<string-array name="orientation_opt">
+			<item>Portrait</item>
+			<item>Landscape</item>
+		</string-array>
+		
+		<string-array name="filter_opt">
+			<item>Off</item>
+			<item>HQ2x</item>
+			<item>2xSAI</item>
+		</string-array>
+		
+		<string-array name="render_opt">
+			<item>Software</item>
+			<item>OpenGL</item>
+			<item>OpenGL Native</item>
+		</string-array>
+		
+		<string-array name="frameskip_opt">
+			<item>Off</item>
+			<item>1</item>
+			<item>2</item>
+			<item>3</item>
+			<item>4</item>
+			<item>5</item>
+			<item>6</item>
+			<item>7</item>
+			<item>8</item>
+			<item>9</item>
+		</string-array>
+		
+		<string-array name="opt_sample_size_array">
+			<item>1024</item>
+			<item>2048</item>
+			<item>4096</item>
+		</string-array>
+</resources>

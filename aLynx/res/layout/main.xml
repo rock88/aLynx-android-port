@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+    
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  
+    android:orientation="vertical" >
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon" />
+
+    <Button
+        android:id="@+id/b_open1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/ButtonVertDP"
+        android:layout_marginLeft="@dimen/ButtonHorDP"
+        android:layout_marginRight="@dimen/ButtonHorDP"
+        android:layout_marginTop="@dimen/ButtonVertDP"
+        android:text="@string/_Open" />
+
+    <Button
+        android:id="@+id/b_setting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/ButtonVertDP"
+        android:layout_marginLeft="@dimen/ButtonHorDP"
+        android:layout_marginRight="@dimen/ButtonHorDP"
+        android:layout_marginTop="@dimen/ButtonVertDP"
+        android:text="@string/_Settings" />
+
+    <Button
+        android:id="@+id/main_button_help"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/ButtonVertDP"
+        android:layout_marginLeft="@dimen/ButtonHorDP"
+        android:layout_marginRight="@dimen/ButtonHorDP"
+        android:layout_marginTop="@dimen/ButtonVertDP"
+        android:text="Help" />
+    
+    <Button
+        android:id="@+id/b_about"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/ButtonVertDP"
+        android:layout_marginLeft="@dimen/ButtonHorDP"
+        android:layout_marginRight="@dimen/ButtonHorDP"
+        android:layout_marginTop="@dimen/ButtonVertDP"
+        android:text="@string/_About" />
+    <Button
+        android:id="@+id/b_exit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/ButtonVertDP"
+        android:layout_marginLeft="@dimen/ButtonHorDP"
+        android:layout_marginRight="@dimen/ButtonHorDP"
+        android:layout_marginTop="@dimen/ButtonVertDP"
+        android:text="@string/_Exit" />
+
+</LinearLayout>
+</ScrollView>

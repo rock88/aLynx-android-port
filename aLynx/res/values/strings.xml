@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ALynxActivity!</string>
+    <string name="app_name">aLynx</string>
+    <string name="_Open">Load Game</string>
+    <string name="_Settings">Options</string>
+    <string name="_About">About</string>
+    <string name="_Exit">Exit</string>
+    <string name="_AboutText">About aLynx:</string>
+    <string name="_About_Back">Back</string>
+
+    <string name="location">Location</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="nnew">New</string>
+    <string name="select">Select</string>
+    <string name="file_name">File name:</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Save</string>
+    <string name="no_data">No Data</string>
+    <string name="fd_path"></string>
+    
+    <color name="gray">#ffff0000</color>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/emu_menu_state"
+	    	
+          android:title="Load/Save State" >
+<!--         <menu>
+            <item android:id="@+id/save_slot_1"
+                  android:title="Slot 1" />
+            <item android:id="@+id/save_slot_2"
+                  android:title="Slot 2" />
+        </menu> -->
+    </item>
+    
+<!--    <item android:id="@+id/emu_menu_screen_shot"
+           android:title="ScreenShot" >
+       <menu>
+            <item android:id="@+id/load_slot_1"
+                  android:title="Slot 1" />
+            <item android:id="@+id/load_slot_2"
+                  android:title="Slot 2" />
+        </menu> 
+    </item>-->
+    
+    <item android:id="@+id/emu_menu_exit"
+          android:title="Exit" >
+    </item>    
+    
+</menu>

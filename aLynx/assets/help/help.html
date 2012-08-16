@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+		<title>aLynx Help</title>
+	</head>
+	<body>
+		<p align="left"><img border="0" src="img/logo.png" width="100%"><br></p>
+		<p><b>Index:</b><br>
+		&nbsp;&nbsp;<a href="help.html#a1">1. About aLynx</a><br>
+		&nbsp;&nbsp;<a href="help.html#a2">2. Main Menu</a><br>
+		&nbsp;&nbsp;<a href="help.html#a3">3. Options</a><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<a href="help.html#a31">3.1 Video</a><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<a href="help.html#a32">3.2 Audio</a><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<a href="help.html#a33">3.3 Controls</a><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<a href="help.html#a34">3.4 Path</a><br>
+		&nbsp;&nbsp;<a href="help.html#a4">4. FAQ</a><br>
+		&nbsp;&nbsp;<a href="help.html#a5">5. Changelog</a><br>
+		</p>
+		
+		<a class="anchor" name="a1" ></a>
+		<p><font size="4"><b>1. About aLynx:</b></font><br>
+		<b><font color="#2233FF">aLynx</font></b> - is a Atari Lynx emulator for Android OS 2.1 and higher. aLynx supports on-screen keyboard, sound output, OpenGL rendering, load/save games states.<br>
+		aLynx based on a Handy 0.95 by <b>Keith Wilkins</b>.<br><br>
+		Autor: rock88<br>
+		e-mail: <a href="mailto:rock88a@gmail.com?subject=aLynx">rock88a@gmail.com</a><br>
+		Web: <a href="http://rock88dev.blogspot.com">rock88dev.blogspot.com</a>
+		</p>
+		
+		<a class="anchor" name="a2" ></a>
+		<p><font size="4"><b>2. Main Menu:</b></font><br>
+		<p align="left"><img border="0" src="img/main_menu.jpg"><br></p>
+		&nbsp;&nbsp;<font color="#2233FF">Load Game</font> - Select game rom in file dialog and play (Before the game you need to select the BIOS file in the Options->Path);<br>
+		&nbsp;&nbsp;<font color="#2233FF">Options</font> - Change the settings of video, audio, customize controls, etc;<br>
+		&nbsp;&nbsp;<font color="#2233FF">Help</font> - Show this help file;<br>
+		&nbsp;&nbsp;<font color="#2233FF">About</font> - About aLynx;<br>
+		&nbsp;&nbsp;<font color="#2233FF">Exit</font> - Exit from aLynx.<br>
+		</p>
+		
+		<a class="anchor" name="a3" ></a>
+		<p><font size="4"><b>3. Options:</b></font><br>
+		<p align="left"><img border="0" src="img/options1.jpg"><br></p>
+		<a class="anchor" name="a31" ></a>
+		<p><font size="4"><b>&nbsp;&nbsp;3.1 Video:</b></font><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2233FF">Screen orientation</font> - Set screen orientation in game (Portrait or Landscape);<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2233FF">Frameskip</font> - Set frame skip count, before drawing (Off, 1,2,..,9);<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2233FF">Rendering</font> - Set Render mode, for image drawing. Values:<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#554455">Software</font> - A simple video output, when stretching the picture becomes a pixelate. You can improve the image using the Filters;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#554455">OpenGL</font> - For output video used OpenGL. When stretch the image is smoothed, but the weak GPU can be slow work;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#554455">OpenGL Native</font> - For video output used OpenGL, executed from Native part, writen in "C". More performance in comparison with the normal "OpenGL" mode;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2233FF">Filter</font>(Only for Software Rendering) - Enable filters to improve image. Filter Preview:<br>
+		<a class="anchor" name="a39" ></a>
+		<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;<img border="0" src="img/filter1.png"><br></p>
+		&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2233FF">Screen Refresh Rate</font> (Only for Software Rendering) - Number of screen updates per second (1..60);<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2233FF">PowerVR Fix</font> (Only for OpenGL/Native Rendering) - Fix the size of the texture to display correctly on the PowerVR GPU. May be need to enable on other GPU;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2233FF">Limit Framerate</font> - Limit Framerate to 60 frame per second;<br>
+		</p>
+		<a class="anchor" name="a32" ></a>
+		<p><font size="4"><b>&nbsp;&nbsp;3.2 Audio:</b></font><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2233FF">Enable Sound</font> - Enable/Disable sound output;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2233FF">Sample Size (bytes)</font> - Size array for sound output (1024, 2048, 4096);<br>
+		<a class="anchor" name="a33" ></a>
+		<p><font size="4"><b>&nbsp;&nbsp;3.3 Controls:</b></font><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2233FF">Set on-Screen Pad (Portrait)</font> - Setup on-screen pad position for portrait screen orientation;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2233FF">Set on-Screen Pad (Landscape)</font> - Setup on-screen pad position for landscape screen orientation;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2233FF">Configure Hardware Keys</font> - Binding hardware keys to console keys;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2233FF">Show/Hide on-Screen Buttons</font> - Show/Hide on-Screen buttons;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2233FF">Vibrate on Keypress</font> - Enable/Disable vibration on press on-Screen buttons;<br>
+		<a class="anchor" name="a34" ></a>
+		<p><font size="4"><b>&nbsp;&nbsp;3.4 Path:</b></font><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2233FF">BIOS Path</font> - Path to a Lynx BIOS file, without it, the game will not run;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2233FF">Default Rom Path</font> - Default path to open with "Load Game" button, if not set, opening "/";<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2233FF">Default Save States Path</font> - Default path for game states, if not set - saving with rom;<br>
+		</p>
+		<a class="anchor" name="a4" ></a>
+		<p><font size="4"><b>4. FAQ:</b></font><br>
+		<a class="anchor" name="a41" ></a>
+		<p><font size="4"><b>&nbsp;&nbsp;Q: Where can I get the BIOS file?</b></font><br>
+		<p>&nbsp;&nbsp;&nbsp;A: Just look for it on the Internet, on the name of "lynxboot.img".<br>
+		<a class="anchor" name="a42" ></a>
+		<p><font size="4"><b>&nbsp;&nbsp;Q: How do I set up on-screen buttons?</b></font><br>
+		<p>&nbsp;&nbsp;&nbsp;A: You can do this in Options->Controls->Set on-Screen Pad (Portrait/Landscape)<br>
+		<p align="left">&nbsp;&nbsp;&nbsp;<img border="0" src="img/setcontrols1.png"><br></p>
+		<p>&nbsp;&nbsp;&nbsp;<font color="#2233FF">Select</font> - Choose a screen or button to move them (the screen can also be stretched). Tips: So is it possible to do the buttons Volume + / -;<br>
+		&nbsp;&nbsp;&nbsp;<font color="#2233FF">Pad Opacity</font> - Set opacity for on-screen buttons;<br>
+		&nbsp;&nbsp;&nbsp;<font color="#2233FF">Pad Size</font> - Set on-screen buttons size (1x,1.5x,2x). Only for 320x480 screens and more;<br>
+		&nbsp;&nbsp;&nbsp;<font color="#2233FF">Reset</font> - Reset position on-screen buttons and screen;<br>
+		&nbsp;&nbsp;&nbsp;<font color="#2233FF">Stretch Image</font> (Only for Landscape mode) - Stretch screen image (Full Screen, Full Screen with Borders).
+		<br>
+		</p>
+		<a class="anchor" name="a5" ></a>
+		<p><font size="4"><b>5. Changelog:</b></font><br>
+		<p>&nbsp;&nbsp;21/04/12 v1.0 - First release on a Google Play</p>
+		<p>&nbsp;&nbsp;29/04/12 v1.01 - <br>
+		&nbsp;&nbsp;&nbsp;&nbsp;Homebrew rom support;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;Support for pressing diagonal on a d-pad;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;2x size of the pads (for 480x800 screens and more);</p>
+		<p>&nbsp;&nbsp;19/05/12 v1.02 - <br>
+		&nbsp;&nbsp;&nbsp;&nbsp;Rewritten core using a source code Handy 0.95;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;Fixed control (You can hold your finger on a D-Pad and move it);<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;Remove all filters and added HQ2X and 2xSAI;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;Many bug fixes;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;Added mips CPU support;</p>
+		<p>&nbsp;&nbsp;23/05/12 v1.03 - <br>
+		&nbsp;&nbsp;&nbsp;&nbsp;1.5x size of the pads (for 320x480 screens and more);<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;Fixed various bugs;<br>
+		<p>&nbsp;&nbsp;26/05/12 v1.031 - <br>
+		&nbsp;&nbsp;&nbsp;&nbsp;Fixed "pointerIndex out of range";<br></p>
+		<p>&nbsp;&nbsp;31/05/12 v1.032 - <br>
+		&nbsp;&nbsp;&nbsp;&nbsp;Fixed bug with Multitouch;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;Added BT gamepad support.<br></p>
+		<br>
+		<br>
+		<br>
+	</body>
+</html>

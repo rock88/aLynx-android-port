@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rock88dev.alynx"
+    android:versionCode="6"
+    android:versionName="1.032" >
+
+    <uses-sdk android:minSdkVersion="7" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name">
+        <activity
+            android:name=".ALynxActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ALynxAbout"></activity>
+        <activity android:name=".ALynxRomSelectDialog"></activity>
+        <activity android:name=".ALynxEmuActivity_P" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:screenOrientation="portrait"></activity>
+        <activity android:name="ALynxEmuActivity_L" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:screenOrientation="landscape"></activity>
+        <activity android:name="ALynxPathSelectDialog"></activity>
+        <activity android:name=".ALynxOptions"></activity>
+        <activity android:name=".ALynxOptions_Video"></activity>
+        <activity android:name=".ALynxOptions_Controls"></activity>
+        <activity android:name=".ALynxOptions_Path"></activity>
+        <activity android:name="ALynxConfPad" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+        <activity android:name="ALynxOptions_Controls_HardkKey"></activity>
+        <activity android:name="ALynxBiosSelectDialog"></activity>
+        <activity android:name="ALynxOptions_Sound"></activity>
+        <activity android:name="ALynxHelp"></activity>
+        <activity android:name="ALynxEmuStates" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+        <activity android:name="ALynxOptions_Controls_HideButtons"></activity>
+        
+    </application>
+
+</manifest>

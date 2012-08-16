@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/padmenu_select"
+        	
+          android:title="Select" >
+        <menu >
+            <item android:id="@+id/padmenu_screen"
+                  android:title="Screen" />
+            <item android:id="@+id/padmenu_dpad"
+                  android:title="D-pad" />
+            <item android:id="@+id/padmenu_button_a"
+                  android:title="Key A" />
+            <item android:id="@+id/padmenu_button_b"
+                  android:title="Key B" />
+            <item android:id="@+id/padmenu_button_start"
+                  android:title="Start" />
+            <item android:id="@+id/padmenu_button_opt1"
+                  android:title="Option 1" />
+            <item android:id="@+id/padmenu_button_opt2"
+                  android:title="Option 2" />
+        </menu>
+    </item>
+    
+    <item android:id="@+id/set_opacity"
+          android:title="Pad Opacity" >
+        <menu>
+            <item android:id="@+id/opacity_None"
+                  android:title="None" />
+            <item android:id="@+id/opacity_Low"
+                  android:title="Low" />
+            <item android:id="@+id/opacity_Medium"
+                  android:title="Medium" />
+            <item android:id="@+id/opacity_Hight"
+                  android:title="Hight" />
+        </menu>
+    </item>
+    
+    <item android:id="@+id/set_size"
+          android:title="Pad Size" >
+        <menu>
+            <item android:id="@+id/size_1x"
+                  android:title="1x" />
+            <item android:id="@+id/size_15x"
+                  android:title="1.5x" />
+            <item android:id="@+id/size_2x"
+                  android:title="2x" />
+        </menu>
+    </item>
+    
+    <item android:id="@+id/padmenu_stretch_image"
+          android:title="Stretch Image">
+		<menu>
+            <item android:id="@+id/padmenu_stretch_full"
+                  android:title="Full Screen" />
+            <item android:id="@+id/padmenu_stretch_borders"
+                  android:title="Full Screen with Borders" />
+        </menu>          
+    </item>
+    
+    <item android:id="@+id/padmenu_reset"
+          android:title="Reset" >
+    </item> 
+    
+    <item android:id="@+id/padmenu_saveexit"
+          android:title="Back" >
+    </item>    
+    
+</menu>

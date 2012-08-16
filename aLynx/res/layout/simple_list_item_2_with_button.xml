@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:mode="twoLine"
+    android:paddingBottom="2dip"
+    android:paddingTop="2dip" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight=".4"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/sli2_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Text1"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/sli2_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Text2"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>		
+        <Button
+            android:id="@+id/state_button_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="saveHandler"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/state_button_load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="loadHandler"
+            android:text="Load" />
+        
+        <Button
+            android:id="@+id/state_button_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="deleteHandler"
+            android:text="Delete" />
+                
+    </LinearLayout>
+
+</LinearLayout>
